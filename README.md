@@ -54,11 +54,11 @@ Note on fairness: the tree uses balanced class weights while the fuzzy threshold
 
 | Failure type | Count in test set | Fuzzy caught | Tree caught |
 |--------------|-------------------|--------------|-------------|
-| TWF (tool wear) | | | |
-| HDF (heat dissipation) | | | |
-| PWF (power) | | | |
-| OSF (overstrain) | | | |
-| RNF (random) | | | |
+| TWF (tool wear) | 13| 0.23| 0.77|
+| HDF (heat dissipation) | 42| 0.31| 1.00|
+| PWF (power) | 23| 1.00| 1.00|
+| OSF (overstrain) | 27| 1.00| 1.00|
+| RNF (random) | 6| 0.00| 0.17|
 
 ## Membership functions
 
