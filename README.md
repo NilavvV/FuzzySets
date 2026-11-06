@@ -84,7 +84,7 @@ Risk score = 1.00 -> FAILURE
 
 ```
 pip install -r requirements.txt
-python fuzzy_ai4i.py
+python main.py
 ```
 
 The script prints the confusion matrices and classification reports for both models, saves `membership_functions.png`, and prints a rule-firing explanation.
@@ -104,6 +104,6 @@ The script prints the confusion matrices and classification reports for both mod
 
 ## Files
 
-- `fuzzy_ai4i.py`: full pipeline
+- `main.py`: full pipeline
 - `membership_functions.png`: plot of all membership functions
 - `requirements.txt`: Python dependencies
